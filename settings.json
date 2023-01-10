@@ -11,7 +11,7 @@
     "workbench.editor.untitled.hint": "hidden",
     "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
     "workbench.preferredLightColorTheme": "Gruvbox Light Hard",
-    "workbench.colorTheme": "Gruvbox Light Hard",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.editorAssociations": {
         "git-rebase-todo": "default"
     },
@@ -41,6 +41,18 @@
             "before": ["leader", "s", "p"],
             "commands": [
               "search.action.focusPreviousSearchResult"
+            ]
+        },
+        {
+            "before": ["leader", "d", "n"],
+            "commands": [
+              "editor.action.marker.nextInFiles"
+            ]
+        },
+        {
+            "before": ["leader", "d", "p"],
+            "commands": [
+              "editor.action.marker.prevInFiles"
             ]
         }
     ],
