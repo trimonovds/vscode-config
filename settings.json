@@ -1,0 +1,88 @@
+{
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "editor.fontSize": 14,
+    "editor.rulers": [
+        80
+    ],
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontSize": 14,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+    "workbench.preferredLightColorTheme": "Gruvbox Light Hard",
+    "workbench.colorTheme": "Gruvbox Light Hard",
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
+    },
+    "window.zoomLevel": 1,
+    "window.autoDetectColorScheme": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.ignoreRecommendations": true,
+    "json.maxItemsComputed": 10000,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.leader": " ",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["g", "r"],
+            "commands": [
+              "editor.action.goToReferences"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { 
+            "before": ["u"], 
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo", 
+                    "args": []
+                }
+            ] 
+        }, 
+        { 
+            "before": ["<C-r>"], 
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo", 
+                    "args": []
+                }
+            ] 
+        } 
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p"
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        }
+    ]
+}

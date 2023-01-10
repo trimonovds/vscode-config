@@ -1,0 +1,30 @@
+[
+    {
+        "key": "ctrl+cmd+o",
+        "command": "outline.focus"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "terminal.focus"
+    },
+    {
+        "key": "ctrl+cmd+e",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "shift+cmd+0",
+        "command": "workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "alt+cmd+j",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+b z",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+b x",
+        "command": "workbench.action.closePanel"
+    }
+]
