@@ -30,6 +30,18 @@
             "commands": [
               "editor.action.goToReferences"
             ]
+        },
+        {
+            "before": ["leader", "s", "n"],
+            "commands": [
+              "search.action.focusNextSearchResult"
+            ]
+        },
+        {
+            "before": ["leader", "s", "p"],
+            "commands": [
+              "search.action.focusPreviousSearchResult"
+            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
